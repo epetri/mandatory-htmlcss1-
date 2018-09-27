@@ -1,0 +1,162 @@
+body {
+  background-image: url("lights.jpg");
+  height: 1000px;
+  font-family: 'Open Sans Condensed', sans-serif;
+
+}
+
+header {
+  margin: auto;
+  width: 1000px;
+  height: 100px;
+  background-color: inherit;
+}
+.htext {
+  margin: 0;
+  padding: 0;
+  color: white;
+  font-size: 10px;
+  display: flex;
+  justify-content: center;
+  text-shadow: 4px 4px 4px black;
+}
+
+.logga {
+  height: 180px;
+  width: 200px;
+  border-bottom: 2px solid white;
+}
+
+nav {
+  width: 1000px;
+  height: 60px;
+  display: flex;
+  justify-content:  space-around;
+  align-items: flex-end;
+}
+
+.nav {
+  width: 100vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  list-style-type: none;
+  color: white;
+  font-family: 'Aldrich', sans-serif;
+  font-size: 20px;
+}
+footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  color: black;
+}
+
+.fotlist {
+    list-style-type: none;
+}
+
+.info {
+  color:black;
+  font-size: 15px;
+  text-shadow: none;
+
+}
+.info:hover {
+  font-size: 15px;
+  text-shadow: none;
+  text-decoration: underline;
+  color:  #ff1493;
+  transition-duration: 0s;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+  text-shadow: 4px 4px 4px black;
+}
+
+a:hover {
+  font-size: 25px;
+  transition-duration: 1s;
+  text-shadow: 8px 8px 4px black;
+
+}
+
+a.aktiv {
+  font-size: 25px;
+  text-shadow: 8px 8px 4px black;
+}
+
+#icon {
+  color: #ff1493;
+}
+
+section {
+  margin:auto;
+  height: 640px;
+  width: 900px;
+  text-align: center;
+}
+
+h1 {
+  padding: 10px 10px 0px 10px;
+  }
+
+p {
+  text-align: left;
+  margin: 5px 10px 0px 10px;
+  column-count: 2;
+  }
+  span  {
+    font-size: 70px;
+    color: white;
+    letter-spacing: 10px;
+    text-shadow: 4px 4px 10px black;
+    opacity: 0.5;
+  }
+
+
+aside {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  position: fixed;
+  top:40px;
+}
+
+.face {
+  background-color: inherit;
+  border: 0;
+  outline: 0;
+}
+.face:hover {
+  border-bottom: 5px solid rgba(171, 178, 185, 0.1);
+}
+
+.insta {
+  background-color: inherit;
+  border: 0;
+  outline: 0;
+}
+.insta:hover {
+  border-bottom: 5px solid rgba(171, 178, 185, 0.1);
+}
+
+.twitter {
+  background-color: inherit;
+  border: 0;
+  outline: 0;
+}
+.twitter:hover {
+  border-bottom: 5px solid rgba(171, 178, 185, 0.1);
+}
+
+.mail {
+  background-color: inherit;
+  border: 0;
+  outline: 0;
+}
+.mail:hover {
+  border-bottom: 5px solid rgba(171, 178, 185, 0.1);
+}

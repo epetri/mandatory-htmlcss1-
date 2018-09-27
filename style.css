@@ -1,0 +1,254 @@
+body {
+      background-image: url("lights.jpg");
+      height: 970px;
+      font-family: 'Open Sans Condensed', sans-serif;
+}
+
+
+
+header {
+  margin: auto;
+  width: 1000px;
+  height: 100px;
+  background-color: inherit;
+}
+.htext {
+  margin-left: 0px;
+  padding: 0;
+  color: white;
+  font-size: 10px;
+  display: flex;
+  justify-content: center;
+  text-shadow: 4px 4px 4px black;
+}
+
+.logga {
+  margin-left: 400px;
+  height: 180px;
+  width: 200px;
+  border-bottom: 5px solid white;
+}
+
+nav {
+  width: 1000px;
+  height: 60px;
+  display: flex;
+  justify-content:  space-around;
+  align-items: flex-end;
+}
+
+.nav {
+  width: 100vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  list-style-type: none;
+  color: white;
+  font-family: 'Aldrich', sans-serif;
+  font-size: 20px;
+}
+footer {
+  position: relative;
+  top: 170px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  color: black;
+}
+
+
+.info {
+  color: black;
+  font-size: 15px;
+  text-shadow: none;
+
+}
+.info:hover {
+  font-size: 15px;
+  text-shadow: none;
+  text-decoration: underline;
+  color: #ff1493;
+  transition-duration: 0s;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+  text-shadow: 4px 4px 4px black;
+}
+
+a:hover {
+  font-size: 25px;
+  transition-duration: 1s;
+  text-shadow: 8px 8px 4px black;
+
+}
+
+a.aktiv {
+  font-size: 25px;
+  text-shadow: 8px 8px 4px black;
+}
+
+#icon {
+  color: #ff1493;
+}
+
+section {
+  margin: auto;
+  position: relative;
+  top: 155px;
+  height: 600px;
+  width: 900px;
+  background-color: rgba(171, 178, 185, 0.5);
+  text-align: center;
+  border-radius: 10%;
+  box-shadow: 0 0 9px black;
+}
+
+
+
+h1 {
+  padding: 30px 30px 0px 30px;
+  }
+
+p {
+  float: left;
+  text-align: left;
+  margin: 5px 30px 0px 30px;
+  column-count: 2;
+  }
+  span {
+    font-size: 33px;
+  }
+
+  .me {
+    height: 400px;
+    float: right;
+  }
+
+aside {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  position: fixed;
+  top:40px;
+}
+
+.face {
+  background-color: inherit;
+  border: 0;
+  outline: 0;
+}
+.face:hover {
+  border-bottom: 5px solid rgba(171, 178, 185, 0.1);
+}
+
+.insta {
+  background-color: inherit;
+  border: 0;
+  outline: 0;
+}
+.insta:hover {
+  border-bottom: 5px solid rgba(171, 178, 185, 0.1);
+}
+
+.twitter {
+  background-color: inherit;
+  border: 0;
+  outline: 0;
+}
+.twitter:hover {
+  border-bottom: 5px solid rgba(171, 178, 185, 0.1);
+}
+
+.mail {
+  background-color: inherit;
+  border: 0;
+  outline: 0;
+}
+.mail:hover {
+  border-bottom: 5px solid rgba(171, 178, 185, 0.1);
+}
+
+table {
+  text-align: left;
+  width: 700px;
+  height: 450px;
+  border-collapse: collapse;
+  margin:auto;
+  margin-top: 15px;
+  background-color: rgba(171, 178, 185, 0.7);
+  box-shadow: 0px 0px 20px 2px black;
+  border-radius: 7%;
+}
+
+td, tr, th {
+  padding: 10px;
+}
+
+tr:nth-child(even) {
+    background-color: rgba(219,221,221,0.5);
+}
+
+#star {
+  color: yellow;
+}
+#starone {
+  color: yellow;
+}
+#startwo {
+  color: yellow;
+}
+#starthree {
+  color: yellow;
+}
+#starfore {
+  color: yellow;
+}
+
+.linkbox{
+  list-style-type: none;
+  text-align: left;
+  margin:auto;
+  margin-top: 40px;
+  height: 350px;
+  width: 450px;
+  padding-top: 20px;
+}
+
+.links {
+  color: white;
+  opacity: 0.4;
+  text-shadow: none;
+  margin-left: 80px;
+  font-size: 40px;
+}
+
+.links:hover {
+  font-size: 41px;
+  text-decoration: underline;
+  transition-duration: 0s;
+  text-shadow: none;
+}
+
+form {
+    width: 500px;
+    height: 480px;
+    background-color: rgba(171, 178, 185, 0.7);
+    margin: auto;
+    padding-top: 20px;
+    box-shadow: 0px 0px 15px 2px black;
+    border-radius: 7%;
+}
+
+input, option, textarea, select {
+  background-color: lightgrey;
+  border-color: lightgrey;
+}
+
+label {
+  font-weight: bold;
+  color: white;
+  opacity: 0.4;
+  text-shadow: 2px 2px 2px black;
+}

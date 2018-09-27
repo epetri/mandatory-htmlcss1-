@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Home/contact</title>
+    <link href="https://fonts.googleapis.com/css?family=Aldrich" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <header>
+      <nav>
+          <ul class="nav">
+            <li><i class="material-icons">home</i><a href="index.html">Home</a></li>
+            <li><i class="material-icons">account_circle</i><a href="about.html">About</a></li>
+            <li><i class="material-icons">videocam</i><a href="movies.html">Media</a></li>
+            <li><i class="material-icons">near_me</i><a href="links.html">Links</a></li>
+            <li><i id="icon" class="material-icons">edit</i><a class="aktiv" href="contact.html">Contact</a></li>
+          </ul>
+      </nav>
+      <img class="logga" src="logga.png">
+      <h1 class="htext">ASSIGNMENT</h1>
+    </header>
+    <section>
+      <h1><span>Contact me.</span></h1>
+
+      <form>
+
+          <label for="Name">Name:</label>
+          <br>
+          <input type="text" name="firstname" placeholder=" Firstname" required>
+          <br>
+          <input type="text" name="lastname" placeholder=" Lastname" required>
+          <br><br>
+          <label for="email">E-mail:</label> <br>
+          <input type="email" name="email" placeholder=" exempel@gmail.com" required>
+          <br><br>
+
+
+          <label for="selection"> Where are you from?</label>
+          <br>
+          <select required>
+              <option value="">Please choose a country</option>
+              <option value="Sweden">Sweden</option>
+              <option value="Germany">Germany</option>
+              <option value="Finland">Finland</option>
+              <option value="Norway">Norway</option>
+          </select>
+          <br><br>
+          <label for="textbox">Your question</label>
+          <br>
+              <textarea name="message" rows="10" cols="30" placeholder="Whats on your mind?" required></textarea>
+          <br><br>
+          <input type="submit" value="Send">
+
+
+      </form>
+
+
+
+    </section>
+
+      <aside>
+        <a href="http://instagram.com" target="_blank"><button class="insta" ><img style="height:50px;width:50px;" src="instagram.png"></button></a>
+        <a href="http://twitter.com" target="_blank"><button class="twitter" ><img style="height: 50px; width: 50px;" src="twitter.png"></button></a>
+        <a href="http://facebook.com" target="_blank"><button class="face" ><img style="height:50px;width:50px"; src="face.png"></button></a>
+        <a href="http://hotmail.com" target="_blank"><button  class="mail" ><img style="height:50px;width:50px"; src="mail.png"></button></a>
+    </aside>
+    <footer>
+      <ul> Contact:
+        <li>Tel: 0730 59 ## ##</li>
+        <li>Mail: emmapetri@hotmail.com</li>
+      </ul>
+
+      <ul> Info:
+        <li><a class="info" href="http://erefredag.se/"target="_blank">Questions</a></li>
+        <li><a class="info" href="http://erefredag.se/"target="_blank">CV</a></li>
+      </ul>
+    </footer>
+  </body>
+</html>
